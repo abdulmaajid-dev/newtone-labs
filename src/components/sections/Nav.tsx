@@ -36,7 +36,7 @@ export function Nav() {
     >
       <div className="mx-auto flex h-full max-w-page items-center justify-between px-6 sm:px-8 lg:px-20">
         <a href="#top" className="flex items-center gap-2.5">
-          <span className="block h-[8px] w-[8px] animate-pulse rounded-full bg-blood" />
+          {/* <span className="block h-[8px] w-[8px] animate-pulse rounded-full bg-blood" /> */}
           <span className="font-display text-[18px] uppercase tracking-tight text-ink">Newtone</span>
         </a>
 

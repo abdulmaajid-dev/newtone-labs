@@ -5,10 +5,10 @@ import { useReveal } from "@/components/motion/RevealHooks";
 import { RevealLine, SectionHead } from "@/components/ui/SectionHead";
 
 const STATS = [
-  { value: 3, suffix: "", red: true, label: "Designers in-house. No contractors, no overflow shop." },
-  { value: 9, suffix: "+", label: "Combined years of design experience on the team." },
+  // { value: 3, suffix: "", red: true, label: "Designers in-house. No contractors, no overflow shop." },
+  { value: 15, suffix: "+", label: "Combined years of design experience on the team." },
   { value: 250, suffix: "h", label: "Average monthly output per active retainer." },
-  { value: 12, suffix: "", label: "Active client accounts across four time zones." },
+  { value: 12, suffix: "", label: "industries, one unified design team: our collective experience spans Cybersecurity, Restaurants, Food Chains, EdTech, Hygiene, Healthcare, Furniture, FinTech, and Banking." },
 ];
 
 function Counter({ to, suffix }: { to: number; suffix: string }) {

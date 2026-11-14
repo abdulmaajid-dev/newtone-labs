@@ -87,10 +87,10 @@ export function Process() {
                 style={{ transitionDelay: `${i * 80}ms` }}
               >
                 <div className="flex items-baseline gap-3">
-                  <span className="font-mono text-[11px] uppercase tracking-eyebrow text-blood">{s.num}</span>
-                  <span className="font-mono text-[10px] uppercase tracking-eyebrow text-whisper">
+                  <span className="font-mono text-[11px] uppercase tracking-eyebrow text-blood">{s.duration}</span>
+                  {/* <span className="font-mono text-[10px] uppercase tracking-eyebrow text-whisper">
                     {s.duration}
-                  </span>
+                  </span> */}
                 </div>
 
                 <h3 className="mt-3 font-display text-[clamp(32px,4vw,52px)] uppercase leading-[0.95] tracking-tight text-ink">
@@ -120,7 +120,7 @@ export function Process() {
         </div>
 
         {/* Closer — editorial signature */}
-        <div className="mt-14 flex flex-wrap items-center justify-between gap-3 border-t border-ink/10 pt-6 font-mono text-[10px] uppercase tracking-eyebrow text-whisper lg:mt-16">
+        {/* <div className="mt-14 flex flex-wrap items-center justify-between gap-3 border-t border-ink/10 pt-6 font-mono text-[10px] uppercase tracking-eyebrow text-whisper lg:mt-16">
           <span>
             The same <span className="text-ink">shape</span>, every cycle.
           </span>
@@ -128,7 +128,7 @@ export function Process() {
             <span className="block h-[6px] w-[6px] animate-pulse rounded-full bg-blood" />
             Currently shipping
           </span>
-        </div>
+        </div> */}
       </div>
 
       <style jsx>{`

@@ -49,7 +49,7 @@ const SERVICES: Service[] = [
   },
   {
     num: "06",
-    title: ["UI / UX", "design"],
+    title: ["UI / UX design", "& development"],
     desc: "Marketing pages, dashboards, and onboarding flows. Figma-native, dev-handoff-ready, accessible by default.",
     tags: ["Figma", "Web", "Mobile"],
     preview: "ui",

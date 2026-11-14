@@ -66,14 +66,14 @@ export function Contact() {
               placeholder="A few lines on the deliverable, channels, and timing."
               textarea
             />
-            <div className="flex flex-wrap items-center justify-between gap-6 pt-2">
+            <div className="flex flex-col flex-wrap items-start justify-between gap-6 pt-2">
               <button
                 type="submit"
-                className="group inline-flex items-center gap-3 rounded-full bg-cream px-7 py-5 font-display text-[16px] uppercase tracking-[0.06em] text-ink transition-all duration-300 hover:bg-ink hover:text-cream"
+                className="group inline-flex items-center gap-3 rounded-full bg-cream px-7 py-5 font-mono text-[16px] uppercase tracking-[0.06em] text-ink transition-all duration-300 hover:bg-ink hover:text-cream"
               >
                 Send brief <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
               </button>
-              <p className="max-w-[36ch] font-mono text-[10px] uppercase tracking-eyebrow text-cream/85">
+              <p className="font-mono text-[10px] uppercase tracking-eyebrow text-cream/85">
                 By submitting, you agree we may contact you about your enquiry.
               </p>
             </div>
@@ -93,19 +93,18 @@ export function Contact() {
         <div className="mt-20 grid grid-cols-1 gap-12 border-t border-cream/30 pt-10 lg:mt-28 lg:grid-cols-3 lg:gap-16">
           <FooterCol label="Email">
             <a className="block text-cream hover:underline" href="mailto:info@newtone.design">
-              info@newtone.<br />design
+              info@newtone.design
             </a>
           </FooterCol>
           <FooterCol label="Phone / WhatsApp">
             <a className="block text-cream hover:underline" href="tel:+918356047062">
-              +91 83560<br />47062
+              +91 83560 47062
             </a>
           </FooterCol>
           <FooterCol label="Studio">
-            <p className="text-[16px] font-medium leading-[1.5] normal-case text-cream">
+            <p className="text-[clamp(22px,2.4vw,30px)] font-medium leading-[1.5] normal-case text-cream">
               Newtone Creative Labs<br />
-              Nerul, Navi Mumbai 400706<br />
-              India
+              Nerul, Navi Mumbai-400706, India
             </p>
           </FooterCol>
         </div>
@@ -178,7 +177,7 @@ function FooterCol({ label, children }: { label: string; children: React.ReactNo
   return (
     <div>
       <div className="mb-4 font-mono text-[10px] uppercase tracking-eyebrow text-cream/80">{label}</div>
-      <div className="font-display text-[clamp(22px,2.4vw,30px)] uppercase leading-[1.15] tracking-tight text-cream">
+      <div className="font-mono text-[clamp(22px,2.4vw,30px)] uppercase leading-[1.15] tracking-tight text-cream">
         {children}
       </div>
     </div>

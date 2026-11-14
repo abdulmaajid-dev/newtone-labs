@@ -22,6 +22,14 @@ const config: Config = {
         "in-out-expo": "cubic-bezier(0.87, 0, 0.13, 1)",
         "out-quart": "cubic-bezier(0.25, 1, 0.5, 1)",
       },
+      keyframes: {
+        revealArrow: {
+          '0%': { width: '0px', 'max-width': '0px', opacity: '0' },
+          '20%': { width: 'auto', 'max-width': '40px', opacity: '1' },
+          '75%': { width: 'auto', 'max-width': '40px', opacity: '1' },
+          '100%': { width: '0px', 'max-width': '0px', opacity: '0' },
+        },
+      },
       maxWidth: {
         page: "1440px",
       },
