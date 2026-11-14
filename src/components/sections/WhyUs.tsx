@@ -80,13 +80,13 @@ export function WhyUs() {
                       →
                     </span>
                   </div>
-                {r.arrow && <span className="text-blood">→</span>}
+                {/* {r.arrow && <span className="text-blood">→</span>} ${
+                  r.accent ? "text-blood" : "text-cream"
+                }*/}
                 <span>{r.num}</span>
               </div>
               <h3
-                className={`font-display text-[clamp(28px,4vw,56px)] uppercase leading-[1.05] tracking-tight  group-hover:text-blood ${
-                  r.accent ? "text-blood" : "text-cream"
-                }`}
+                className={`font-display text-[clamp(28px,4vw,56px)] uppercase leading-[1.05] tracking-tight  group-hover:text-blood`}
               >
                 <span className="block">{r.title[0]}</span>
                 <span className="block">{r.title[1]}</span>

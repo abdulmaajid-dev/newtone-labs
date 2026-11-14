@@ -91,9 +91,7 @@ export function About() {
           {STATS.map((s, i) => (
             <div key={i} className="reveal-up" style={{ transitionDelay: `${i * 60}ms` }}>
               <div
-                className={`font-display uppercase leading-[0.9] tracking-[-0.02em] text-[clamp(56px,8vw,112px)] ${
-                  s.red ? "text-blood" : "text-ink"
-                }`}
+                className={`font-display uppercase leading-[0.9] tracking-[-0.02em] text-[clamp(56px,8vw,112px)]`}
               >
                 <Counter to={s.value} suffix={s.suffix} />
               </div>
