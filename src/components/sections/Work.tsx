@@ -4,12 +4,12 @@ import { useReveal } from "@/components/motion/RevealHooks";
 import { RevealLine, SectionHead } from "@/components/ui/SectionHead";
 
 const WORK = [
-  { span: "lg:col-span-7",source: "/assets/videos/motion_graphics_l.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
-  { span: "lg:col-span-5",source: "/assets/videos/motion_graphics_p.webm" ,resolution:"1920x1080", ratio: "4/5", title: "", meta: "", num: "" },
-  { span: "lg:col-span-7",source: "/assets/videos/social_media_l.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
-  { span: "lg:col-span-5",source: "/assets/videos/social_media_p.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
-  { span: "lg:col-span-4",source: "/assets/videos/arkose_p.webm" ,resolution:"1920x1080", ratio: "4/5", title: "", meta: "", num: "" },
-  { span: "lg:col-span-8",source: "/assets/videos/arkose_l.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
+  { span: "lg:col-span-7",source: "https://res.cloudinary.com/scucsl9b/video/upload/v1794683197/motion_graphics_l.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
+  { span: "lg:col-span-5",source: "https://res.cloudinary.com/scucsl9b/video/upload/v1794683196/motion_graphics_p.webm" ,resolution:"1920x1080", ratio: "4/5", title: "", meta: "", num: "" },
+  { span: "lg:col-span-7",source: "https://res.cloudinary.com/scucsl9b/video/upload/v1794683206/social_media_l.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
+  { span: "lg:col-span-5",source: "https://res.cloudinary.com/scucsl9b/video/upload/v1794683198/social_media_p.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
+  { span: "lg:col-span-4",source: "https://res.cloudinary.com/scucsl9b/video/upload/v1794683219/arkose_p.webm" ,resolution:"1920x1080", ratio: "4/5", title: "", meta: "", num: "" },
+  { span: "lg:col-span-8",source: "https://res.cloudinary.com/scucsl9b/video/upload/v1794683199/arkose_l.webm" ,resolution:"1920x1080", ratio: "16/10", title: "", meta: "", num: "" },
 ];
 //https://lorem.video/test_1920x1080_vp9_30fps_30s_25crf_opus_128kbps.webm
 export function Work() {
