@@ -56,6 +56,8 @@ export function Work() {
                   //data-autoplay
                   src={w.source}
                   autoPlay
+                  muted
+                  playsInline
                   loop
                   //src={`https://lorem.video/test_${w.resolution}_vp9_30fps_30s_25crf_opus_128kbps.webm`}
                 ></video>
